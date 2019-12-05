@@ -1,0 +1,140 @@
+.sidermenu_wrapper .FreeScrollbar-vertical-track{
+    border-left: none !important;
+    background: none !important;
+    width: 7px !important;
+    .FreeScrollbar-vertical-handler{
+        background-color: transparent !important;
+    }
+}
+.menu_logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 16px;
+    height: 50px;
+    white-space:nowrap;
+    background: #002140;
+    /*text-overflow: clip*/
+}
+.menu_logo .corner_img{
+    height: 20px;
+}
+.ant-layout-sider-collapsed .menu_logo{
+    padding: 0 14px;
+}
+.menu_logo>img{
+    margin-right: 10px;
+    height: 20px;
+}
+.menu_logo>span{
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.ant-layout-sider-collapsed .menu_logo>span{
+    opacity: 0;
+}
+.menu_logo>img,.menu_logo>span{
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.userOperate , .userOperate>li{
+    float: right;
+    height: 100%;
+}
+.userOperate{
+    padding-right: 20px;
+}
+.userOperate>li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.userOperate span , .userOperate img{
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 12px;
+    color: #999999;
+    cursor: pointer;
+}
+.ant-layout-header{
+    height: 50px;
+    line-height: 50px;
+}
+.ant-layout-content{
+    height: calc(100% - 86px);
+}
+.ant-layout-footer{
+    padding: 10px 50px!important;
+}
+.ant-layout-sider-trigger{
+    height: 40px;
+    line-height: 40px;
+}
+.ant-menu-submenu-title img{
+    margin-right: 10px;
+}
+.ant-layout-sider-collapsed .ant-menu-submenu-title .titleSpan{
+    opacity: 0;
+}
+.ant-layout-sider{
+    height: 100vh;
+}
+.ant-menu-item .icon{
+    margin-right: 10px;
+}
+.ant-menu.ant-menu-dark.ant-menu-inline-collapsed.ant-menu-root.ant-menu-vertical .titleSpan{
+    opacity: 0;
+}
+
+.popcontent{
+    width: 350px;
+    padding: 0;
+    .popcontent_title{
+        height: 30px;
+        line-height: 20px;
+        border-bottom: 1px solid #ccc;
+        padding: 0 10px;
+        font-size: 13px;
+        .popcontent_countSetting{
+            float: right;
+            cursor: pointer;
+            color: #248EFF;
+        }
+    }
+    .popcontent_ul{
+        padding-top: 10px;
+        .popcontent_li{
+            font-size: 13px;
+            height: 40px;
+            line-height: 40px;
+            list-style: disc;
+            margin: 0 30px;
+            .popcontent_li_tips{
+                &:after{
+                    content: ':';
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+}
+.count_setting_rows{
+    height: 50px;
+    line-height: 50px;
+    .count_setting_tips{
+        text-align: right;
+        &:after{
+            content: ':';
+            margin: 0 5px;
+        }
+    }
+}
+.count_setting_btns{
+    padding-top: 10px;
+}
+

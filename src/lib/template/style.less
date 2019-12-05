@@ -1,0 +1,93 @@
+@titleHeight: 6vh;
+.template_title{
+    height: @titleHeight;
+    line-height: @titleHeight;
+    background: #fff;
+    padding: 0 30px;
+    border-bottom: 1px solid #E8E8E8;
+    overflow: hidden;
+}
+.rightBtn{
+    float: right;
+    margin-left: 10px;
+}
+.leftBtn{
+    float: left;
+    margin-right: 10px;
+}
+.template_title_ul{
+    float: left;
+    .template_title_li{
+        padding: 0 10px;
+        float: left;
+        box-sizing: border-box;
+        height: @titleHeight;
+        cursor: pointer;
+        &.on{
+            border-bottom: 2px solid #1496F9;
+        }
+    }
+}
+
+.video_play{
+    .ant-modal-content{
+        background: transparent;
+    }
+    .ant-modal-body {
+        padding: 0;
+        background: transparent;
+    }
+}
+
+.template_wrapper{
+    //padding: 0 10px;
+
+
+
+    .template_table{
+        background-color: #fff;
+        padding: 0 20px;
+    }
+    .template_table_row{
+        height: 5.5vh;
+    }
+
+    .template_table_row_disable{
+        opacity: 0.6;
+        .ant-table-selection-column{
+            .ant-checkbox-wrapper{
+                display: none;
+            }
+        }
+        .template_btn, .table-class-freeze, .table-class-start, .table-class-edit, .table-class-delete, .table-class-recover{
+           display: none;
+        }
+    }
+    .ant-table-thead{
+        .ant-table-selection-column{
+            .ant-checkbox-wrapper{
+                //display: none;
+            }
+        }
+    }
+
+
+    .table-class-setting, .template_btn, .table-class-freeze, .table-class-start, .table-class-edit, .table-class-delete, .table-class-play, .table-class-recover{
+        color: #189EFF;
+        font-size: 14px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+}
+
+/* video 弹出框部分modal样式定制 */
+.video-modal-wrapper{
+    .ant-modal-content{
+        background: transparent;
+        box-shadow: none;
+    }
+    .ant-modal-body{
+        padding: 0;
+    }
+}
